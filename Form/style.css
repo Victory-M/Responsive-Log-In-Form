@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+section {
+  background-image: url(https://mide-sign-up-page.netlify.app/assets/images/bg-intro-desktop.png);
+  background-color: rgb(255, 37, 74);
+
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-box {
+  color: white;
+  padding-right: 3rem;
+}
+
+.text-box h2 {
+  font-size: 3.9rem;
+}
+
+@media (min-width: 576px) {
+  section {
+    margin: auto;
+    padding: auto;
+    width: 90%;
+    height: 119vh;
+  }
+  h2 {
+    font-size: 1rem;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  #pad2 {
+    padding: 1rem 5.75rem 0.5rem;
+  }
+}
+
+button {
+  background-color: rgb(5, 216, 135);
+  color: white;
+}
+#pad1 {
+  padding-top: 5rem;
+  padding-left: 4rem;
+}
+#pad2 {
+  padding-top: 5rem;
+  padding-right: 6rem;
+}
+
+.form {
+  background-color: white;
+}
+.formheader {
+  background-color: rgb(107, 11, 197);
+  color: white;
+}
